@@ -1,0 +1,28 @@
+
+.square {
+    background: #fff;
+    border: 1px solid;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100%;
+    width: 33.5%;
+    margin-right: -1px;
+    margin-top: -1px;
+
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:focus {
+    outline: 2px solid yellow;
+}
+
+.square_img {
+    width: 80%;
+    height: 80%;
+}

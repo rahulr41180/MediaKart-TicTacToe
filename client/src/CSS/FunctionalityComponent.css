@@ -1,0 +1,38 @@
+
+.game {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.game-board {
+    width: 50.5%;
+    height: 75%;
+    margin: 0 auto 0 auto;
+}
+
+.game-controls {
+    width: 70%;
+    height: 17%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.game_control_btn {
+    width: 30%;
+    height: 100%;
+    border: none;
+    font-size: 15px;
+}
+
+.game_control_btn:hover {
+    background-color: red;
+}
